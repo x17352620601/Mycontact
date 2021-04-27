@@ -1,0 +1,4 @@
+﻿  contact.c
+C:\Users\小谢\Desktop\C Program\MYcode\MYcontact\MYcontact\contact.c(46,18): warning C4133: “=”: 从“peoinfo *”到“PeoInfo *”的类型不兼容
+C:\Users\小谢\Desktop\C Program\MYcode\MYcontact\MYcontact\contact.c(71): warning C4715: “FindContact”: 不是所有的控件路径都返回值
+  MYcontact.vcxproj -> C:\Users\小谢\Desktop\C Program\MYcode\MYcontact\Debug\MYcontact.exe

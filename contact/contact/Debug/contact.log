@@ -1,0 +1,3 @@
+﻿  contact.c
+C:\Users\小谢\Desktop\C Program\MYcode\contact\contact\contact.c(19): warning C4715: “FindContact”: 不是所有的控件路径都返回值
+  contact.vcxproj -> C:\Users\小谢\Desktop\C Program\MYcode\contact\Debug\contact.exe
