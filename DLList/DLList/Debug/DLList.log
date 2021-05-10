@@ -1,0 +1,3 @@
+﻿  DLList.c
+C:\Users\小谢\Desktop\C Program\数据结构\DLList\DLList\DLList.c(12): warning C4716: “BuyListNode”: 必须返回一个值
+  DLList.vcxproj -> C:\Users\小谢\Desktop\C Program\数据结构\DLList\Debug\DLList.exe
