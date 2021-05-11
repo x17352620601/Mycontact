@@ -9,35 +9,38 @@ void DListTest()
 	ListPushBack(plist, 3);
 	ListPushBack(plist, 4);
 	ListPushBack(plist, 5);
-	ListPushFront(plist, 5);
-	ListPushFront(plist, 4);
-	ListPushFront(plist, 3);
-	ListPushFront(plist, 2);
-	ListPushFront(plist, 1);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopFront(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
-	//ListPrint(plist);
-	//ListPopBack(plist);
+	ListPopBack(plist);
 	ListPrint(plist);
+	ListPopBack(plist);
+	ListPrint(plist);
+	ListPopBack(plist);
+	ListPrint(plist);
+	ListPopBack(plist);
+	ListPrint(plist);
+
+	//ListPopFront(plist);
+	//ListPrint(plist);
+	//ListPopFront(plist);
+	//ListPrint(plist);
+	//ListPopFront(plist);
+	//ListPrint(plist);
+	//ListPushFront(plist, 5);
+	//ListPushFront(plist, 4);
+	//ListPushFront(plist, 3);
+	//ListPushFront(plist, 2);
+	//ListPushFront(plist, 1);
+	//ListPopFront(plist);
+	//ListPrint(plist);
+	//ListPopFront(plist);
+	//ListPrint(plist);
+	//ListPopFront(plist);
+	//ListPrint(plist);
+
+	//ListPopBack(plist);
+	//ListPrint(plist);
+	//ListPopBack(plist);
+	//ListPrint(plist);
+	ListDestory(plist);
 }
 void DListTest2()
 {
@@ -48,22 +51,22 @@ void DListTest2()
 	ListPushBack(plist, 4);
 	ListPushBack(plist, 5);
 	DListNode* pos = ListFind(plist, 4);
-	if (pos)
-	{
-		pos->data *= 5;
-		printf("找到了，并乘以5\n");
-	}
-	else
-	{
-		printf("没有找到\n");
-	}
-	ListInsert(pos, 24);
+	//if (pos)
+	//{
+	//	pos->data *= 5;
+	//	printf("找到了，并乘以5\n");
+	//}
+	//else
+	//{
+	//	printf("没有找到\n");
+	//}
+	//ListInsert(pos, 24);
 	ListErase(pos);
 	ListPrint(plist);
 	ListDestory(plist);
 }
 int main()
 {
-	DListTest();
+	DListTest2();
 	return 0;
 }
